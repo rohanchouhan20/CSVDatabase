@@ -15,7 +15,7 @@ public class Employee {
 	private String name;
 
 	@Column(name = "Age")
-	private int age;
+	private String age;
 
 	@Column(name = "Country")
 	private String country;
@@ -41,11 +41,11 @@ public class Employee {
 		this.name = name;
 	}
 
-	public int getAge() {
+	public String getAge() {
 		return age;
 	}
 
-	public void setAge(int i) {
+	public void setAge(String i) {
 		this.age = i;
 	}
 
